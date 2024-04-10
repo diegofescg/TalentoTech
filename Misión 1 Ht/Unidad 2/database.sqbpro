@@ -3,7 +3,10 @@
 SELECT count(*) FROM Player; #Cantidad de jugadores
 SELECT * FROM Player LIMIT 10; #Diez primeros jugadores
 SELECT * FROM Country; #Cantidad de paises **FALTA
-SELECT * FROM League JOIN Country ON Country.id = League.country_id; #Ligas por país
-
-SELECT DISTINCT team_long_name FROM Team WHERE team_long_name like 'A%';
+SELECT * FROM League JOIN Country ON Country.id = League.country_id; #Ligas por país
+
+
+
+SELECT DISTINCT team_long_name FROM Team WHERE team_long_name like 'A%';
+
 SELECT count(*) FROM Team WHERE team_long_name like 'M%';</sql><current_tab id="0"/></tab_sql></sqlb_project>
